@@ -85,9 +85,9 @@ def replace_regexp(string, regexp, repl):
     :returns: string -- new string obtained with the replacement
 
     :examples:
-      >>> replace-regexp("the dogAis red", r'(^[^A]+?)A(.*?)', r"\\1----\\2")
+      >>> replace_regexp("the dogAis red", r'(^[^A]+?)A(.*?)', r"\\1----\\2")
       'the dog----is red'
-      >>> replace_regexp("caaaasioioioioapppp", "^([^s]+?)([^a]+)(.*)$", "\\\\1---\\\\2---\\\\3")
+      >>> replace_regexp("caaaasioioioioapppp", "^([^s]+?)([^a]+)(.*)$", "\\1---\\2---\\3")
       'caaaa---sioioioio---apppp'
 
 
