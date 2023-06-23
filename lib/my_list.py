@@ -298,7 +298,7 @@ def filter_new(op, inlist):
 #filter(lambda x: x > 3, [1,2,3,4,5,6])
 
 #*****************************************************************************
-#                  filter_py
+#                  filter_fast
 
 def filter_fast(op, inlist):
     return list(filter(op, inlist))[0]
